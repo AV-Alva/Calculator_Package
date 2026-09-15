@@ -1,13 +1,17 @@
 """Demonstration program for calculator_tools."""
 
-from arithmetic import add, subtract, multiply, divide, percentage
-from statistics import average
-from converter import (
+from calculator_tools import (
+    add,
+    subtract,
+    multiply,
+    divide,
+    percentage,
+    average,
     celsius_to_fahrenheit,
     fahrenheit_to_celsius,
     convert_length,
+    InvalidOperationError,
 )
-from exceptions import InvalidOperationError
 
 
 def main():
